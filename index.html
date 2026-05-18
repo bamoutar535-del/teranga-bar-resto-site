@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Shady's Grill</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/images/logo.png" alt="Logo" class="logo">
+    <h1>Shady's Grill</h1>
+    <p>Route de l’Aéroport, en face CBAO – 50m après station Shell</p>
+  </header>
+
+  <section id="menu">
+    <h2>Notre Menu</h2>
+    <div class="menu-item">
+      <img src="assets/images/menu1.jpg" alt="Plat 1">
+      <p>Plat 1 - 5000 CFA</p>
+    </div>
+    <div class="menu-item">
+      <img src="assets/images/menu2.jpg" alt="Plat 2">
+      <p>Plat 2 - 4000 CFA</p>
+    </div>
+  </section>
+
+  <section id="location">
+    <h2>Nous trouver</h2>
+    <iframe src="https://maps.google.com/..." width="100%" height="300"></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📞 +221 77 123 45 67</p>
+    <p>📧 contact@shadysgrill.com</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/221771234567" target="_blank">Réserver via WhatsApp</a></p>
+  </section>
+
+  <section id="reservation">
+    <h2>Réservation en ligne</h2>
+    <form>
+      <label for="name">Nom :</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Téléphone :</label><br>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="date">Date :</label><br>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="guests">Nombre de personnes :</label><br>
+      <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+      <button type="submit">Réserver</button>
+    </form>
+    <br>
+    <a href="https://wa.me/221771234567" target="_blank" class="whatsapp-btn">📲 Réserver via WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Shady's Grill - Dakar JO</p>
+  </footer>
+
+  <!-- Traduction FR ↔ EN -->
+  <div id="google_translate_element" style="text-align:center; margin:20px;"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {
+          pageLanguage: 'fr',
+          includedLanguages: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        },
+        'google_translate_element'
+      );
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
+/script>
+</body>
+</html>
